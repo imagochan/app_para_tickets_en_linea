@@ -188,9 +188,9 @@ class AccesosPermitidos{
   bool esPermitidoCompartirParaCliente;
   bool esPermitidoGuardarParaUsuarioGeneral;
   bool esPermitidoCompartirParaUsuarioGeneral;
-  
+
   AccesosPermitidos(this.esPermitidoGuardarParaCliente,
   this.esPermitidoCompartirParaCliente,
   this.esPermitidoGuardarParaUsuarioGeneral,
-  this.esPermitidoCompartirParaUsuarioGeneral)
+  this.esPermitidoCompartirParaUsuarioGeneral);
 }
