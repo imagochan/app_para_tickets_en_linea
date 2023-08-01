@@ -248,6 +248,11 @@ class MyCustomFormState extends State<MyCustomForm> {
         children: [
           TextFormField(
             // The validator receives the text that the user has entered.
+            decoration: const InputDecoration(
+              icon: Icon(Icons.lock),
+              hintText: 'Cual es tu contraseña?',
+              labelText: 'Contraseña *'
+            ),
             validator: (value) {
               if (value == null || value.isEmpty) {
                 return 'Please enter some text';
