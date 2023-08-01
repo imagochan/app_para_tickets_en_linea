@@ -150,10 +150,35 @@ class Usuario {
   String telefono;
   String fechaNacimiento;
   String tipoUsuario;
+  List<String> ticketsGuardados = [];
 
   Usuario(this.nombreCompleto,
   this.correoElectronico,
   this.telefono,
   this.fechaNacimiento,
   this.tipoUsuario);
+}
+
+class TarjetaCredito{
+  int numeroTarjeta;
+  int cvv;
+  String fechaExpiracion;
+
+  TarjetaCredito(this.numeroTarjeta,
+  this.cvv,
+  this.fechaExpiracion);
+}
+
+class RegistroCompra{
+  int ultimos4DigitosTarjeta;
+  int cantidadTicketsCompra;
+  String nombreTicketCompra;
+  double montoTotalCompra;
+  String fechaCompra;
+  
+  RegistroCompra(this.ultimos4DigitosTarjeta,
+  this.cantidadTicketsCompra,
+  this.nombreTicketCompra,
+  this.montoTotalCompra,
+  this.fechaCompra);
 }
