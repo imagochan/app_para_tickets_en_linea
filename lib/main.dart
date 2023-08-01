@@ -143,3 +143,15 @@ class Ticket {
   this.imagenTicket,
   this.categoria);
 }
+
+class Usuario {
+  String nombreCompleto;
+  String correoElectronico;
+  String telefono;
+  String fechaNacimiento;
+
+  Usuario(this.nombreCompleto,
+  this.correoElectronico,
+  this.telefono,
+  this.fechaNacimiento)
+}
