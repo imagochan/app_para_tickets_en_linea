@@ -175,7 +175,7 @@ class RegistroCompra{
   String nombreTicketCompra;
   double montoTotalCompra;
   String fechaCompra;
-  
+
   RegistroCompra(this.ultimos4DigitosTarjeta,
   this.cantidadTicketsCompra,
   this.nombreTicketCompra,
