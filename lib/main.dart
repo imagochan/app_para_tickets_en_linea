@@ -123,3 +123,23 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+class Ticket {
+  String titulo;
+  String descripcion;
+  String fechaVencimiento;//format to datetime before using
+  String fechaPublicacion;
+  String fechaFinPublicacion;
+  double valorCompra;
+  String imagenTicket;
+  String categoria;
+  
+  Ticket(this.titulo,
+  this.descripcion,
+  this.fechaVencimiento,
+  this.fechaPublicacion,
+  this.fechaFinPublicacion,
+  this.valorCompra,
+  this.imagenTicket,
+  this.categoria);
+}
