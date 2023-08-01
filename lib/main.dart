@@ -182,3 +182,15 @@ class RegistroCompra{
   this.montoTotalCompra,
   this.fechaCompra);
 }
+
+class AccesosPermitidos{
+  bool esPermitidoGuardarParaCliente;
+  bool esPermitidoCompartirParaCliente;
+  bool esPermitidoGuardarParaUsuarioGeneral;
+  bool esPermitidoCompartirParaUsuarioGeneral;
+  
+  AccesosPermitidos(this.esPermitidoGuardarParaCliente,
+  this.esPermitidoCompartirParaCliente,
+  this.esPermitidoGuardarParaUsuarioGeneral,
+  this.esPermitidoCompartirParaUsuarioGeneral)
+}
