@@ -153,5 +153,5 @@ class Usuario {
   Usuario(this.nombreCompleto,
   this.correoElectronico,
   this.telefono,
-  this.fechaNacimiento)
+  this.fechaNacimiento);
 }
