@@ -149,9 +149,11 @@ class Usuario {
   String correoElectronico;
   String telefono;
   String fechaNacimiento;
+  String tipoUsuario;
 
   Usuario(this.nombreCompleto,
   this.correoElectronico,
   this.telefono,
-  this.fechaNacimiento);
+  this.fechaNacimiento,
+  this.tipoUsuario);
 }
