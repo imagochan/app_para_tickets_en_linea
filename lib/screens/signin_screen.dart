@@ -1,5 +1,6 @@
 import 'package:app_para_tickets_en_linea/utils/color_utils.dart';
 import 'package:flutter/material.dart';
+import 'package:app_para_tickets_en_linea/reusable_widgets/reusable_widget.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({super.key});
@@ -32,16 +33,6 @@ class _SignInScreenState extends State<SignInScreen> {
                   ),
                   ),
             ),),
-    );
-  }
-
-  Image logoWidget(String imageName){
-  return Image.asset(
-    imageName,
-    fit: BoxFit.fitWidth,
-    width: 240,
-    height: 240,
-    //color: Colors.white,
     );
   }
 }
