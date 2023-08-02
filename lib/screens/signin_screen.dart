@@ -27,9 +27,8 @@ class _SignInScreenState extends State<SignInScreen> {
                 padding: EdgeInsets.fromLTRB(
                 20, MediaQuery.of(context).size.height*0.2, 20, 0),
                 child: Column(
-                  children: <Widget>[
-                    logoWidget("./assets/images/nerv.png"),
-                  ],
+                  children: 
+                    <Widget>[logoWidget("assets/images/nerv.png"),],
                   ),
                   ),
             ),),
@@ -42,7 +41,7 @@ class _SignInScreenState extends State<SignInScreen> {
     fit: BoxFit.fitWidth,
     width: 240,
     height: 240,
-    color: Colors.white,);
+    //color: Colors.white,
+    );
   }
 }
-
