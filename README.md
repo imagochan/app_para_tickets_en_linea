@@ -11,5 +11,5 @@ https://github.com/imagochan/node_server
 
 ## Repositorios de práctica
 
-https://github.com/imagochan/node_tutorials (first API Frontend attempt)
-https://github.com/imagochan/namer_app (Codelab first app)
+- https://github.com/imagochan/node_tutorials (first API Frontend attempt)
+- https://github.com/imagochan/namer_app (Codelab first app)
