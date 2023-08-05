@@ -1,16 +1,15 @@
 # app_para_tickets_en_linea
 
-A new Flutter project.
+App para tickets en línea utilizando:
+- Backend:NodeJS
+- Frontend:Flutter
+- Base de datos no relacional:Firestore de Firebase
 
-## Getting Started
+## Repositorios necesarios
 
-This project is a starting point for a Flutter application.
+https://github.com/imagochan/node_server
 
-A few resources to get you started if this is your first Flutter project:
+## Repositorios de práctica
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://github.com/imagochan/node_tutorials (first API Frontend attempt)
+https://github.com/imagochan/namer_app (Codelab first app)
