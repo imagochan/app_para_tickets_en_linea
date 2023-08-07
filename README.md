@@ -1,4 +1,4 @@
-# app_para_tickets_en_linea
+# App de tickets en línea
 
 App para tickets en línea utilizando:
 - Backend:NodeJS
