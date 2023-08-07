@@ -7,7 +7,7 @@ App para tickets en línea utilizando:
 
 ## Servidor
 
-https://github.com/imagochan/ServidorTickets
+- https://github.com/imagochan/ServidorTickets
 
 ## App
 
