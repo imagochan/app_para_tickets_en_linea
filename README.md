@@ -5,11 +5,10 @@ App para tickets en línea utilizando:
 - Frontend:Flutter
 - Base de datos no relacional:Firestore de Firebase
 
-## Repositorios necesarios
+## Servidor
 
-https://github.com/imagochan/node_server
+https://github.com/imagochan/ServidorTickets
 
-## Repositorios de práctica
+## App
 
-- https://github.com/imagochan/node_tutorials (first API Frontend attempt)
-- https://github.com/imagochan/namer_app (Codelab first app)
+- https://github.com/imagochan/AppTickets
